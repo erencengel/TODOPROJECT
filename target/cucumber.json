@@ -1,0 +1,144 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-22T22:29:59.187Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3862000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.todomvc.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should able to login",
+        "description": "",
+        "id": "work;user-should-able-to-login",
+        "after": [
+          {
+            "result": {
+              "duration": 6145000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.todomvc.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2487000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.todomvc.step_definitions.WorkStepDefs.theUserIsOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 145000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click the javaScript",
+            "match": {
+              "location": "com.todomvc.step_definitions.WorkStepDefs.clickTheJavaScript()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 553000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click the polymer",
+            "match": {
+              "location": "com.todomvc.step_definitions.WorkStepDefs.clickThePolymer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2272000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "send \"Todo1\" İtems",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Todo1\"",
+                  "offset": 5
+                }
+              ],
+              "location": "com.todomvc.step_definitions.WorkStepDefs.sendİtems(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2106000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "send \"Todo2\" İtems",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Todo2\"",
+                  "offset": 5
+                }
+              ],
+              "location": "com.todomvc.step_definitions.WorkStepDefs.sendİtems(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "removes the second text",
+            "match": {
+              "location": "com.todomvc.step_definitions.WorkStepDefs.removesTheSecondText()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Work",
+    "description": "",
+    "id": "work",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Work.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
