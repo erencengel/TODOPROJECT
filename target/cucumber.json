@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-08-22T22:29:59.187Z",
+        "start_timestamp": "2021-08-23T23:26:41.933Z",
         "before": [
           {
             "result": {
-              "duration": 3862000000,
+              "duration": 4018000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 6145000000,
+              "duration": 2977000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2487000000,
+              "duration": 2420000000,
               "status": "passed"
             },
             "line": 5,
@@ -47,34 +47,32 @@
           },
           {
             "result": {
-              "duration": 145000000,
+              "duration": 2455000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "click the javaScript",
+            "name": "the user click \"JavaScript\" and \"Polymer\" orderly",
             "match": {
-              "location": "com.todomvc.step_definitions.WorkStepDefs.clickTheJavaScript()"
+              "arguments": [
+                {
+                  "val": "\"JavaScript\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Polymer\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.todomvc.step_definitions.WorkStepDefs.theUserClickAndOrderly(java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 553000000,
+              "duration": 2373000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "click the polymer",
-            "match": {
-              "location": "com.todomvc.step_definitions.WorkStepDefs.clickThePolymer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2272000000,
-              "status": "passed"
-            },
-            "line": 8,
             "name": "send \"Todo1\" İtems",
             "match": {
               "arguments": [
@@ -89,10 +87,10 @@
           },
           {
             "result": {
-              "duration": 2106000000,
+              "duration": 2082000000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 8,
             "name": "send \"Todo2\" İtems",
             "match": {
               "arguments": [
@@ -107,10 +105,10 @@
           },
           {
             "result": {
-              "duration": 56000000,
+              "duration": 66000000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "removes the second text",
             "match": {
               "location": "com.todomvc.step_definitions.WorkStepDefs.removesTheSecondText()"

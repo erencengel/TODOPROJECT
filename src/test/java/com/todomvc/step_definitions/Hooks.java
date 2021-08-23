@@ -1,5 +1,6 @@
 package com.todomvc.step_definitions;
 
+import com.todomvc.utilities.BrowserUtils;
 import com.todomvc.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -18,12 +19,12 @@ public class Hooks {
     }
 
     @After
-    public void tearDown(Scenario scenario) throws InterruptedException {
+    public void tearDown(Scenario scenario){
         if (scenario.isFailed()) {
             final byte[] screenshot = ((TakesScreenshot) Driver.get()).getScreenshotAs(OutputType.BYTES);
             scenario.attach(screenshot, "image/png", scenario.getName() + "_screenshot");
         }
-        Thread.sleep(5000);
+        BrowserUtils.waitFor(2);
         Driver.closeDriver();
     }
 }
